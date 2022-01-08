@@ -7,14 +7,14 @@
         "stripe",
         "checker"
     ],
-    "repository": "https://github.com/iam-NVN/stripekey-generator",
+    "repository": "https://github.com/enrique46014/stripekey-generator",
     "env": {
-        "FORWARD_ID": {
+        "5091923936": {
             "description": "Your UserID/Chat ID to forward live sk keys to",
             "required": true,
             "value": ""
         },
-        "BOT_TOKEN": {
+        "5091923936:AAEdRRaoX0SKse3f951B4QQ17roZialWXdw": {
             "description": "Bot token, get it from @BotFather.",
             "required": true,
             "value": ""
