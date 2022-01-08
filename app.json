@@ -9,12 +9,12 @@
     ],
     "repository": "https://github.com/enrique46014/stripekey-generator",
     "env": {
-        "5091923936": {
+        "1242651511": {
             "description": "Your UserID/Chat ID to forward live sk keys to",
             "required": true,
             "value": ""
         },
-        "5091923936:AAEdRRaoX0SKse3f951B4QQ17roZialWXdw": {
+        "5073061475:AAEKqb0MrK9D5J_80FIU6HhJtpL8c5-X7UI": {
             "description": "Bot token, get it from @BotFather.",
             "required": true,
             "value": ""
